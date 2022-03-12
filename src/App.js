@@ -9,10 +9,10 @@ function App() {
   return (
     <main>
       <section className='container'>
-        <h1>{people.length} birthdays</h1>
+        <h1>{people.length} Cumpleaños</h1>
         <List people={people}/>
         <button onClick={()=>setPeaple([])}>
-            Limpiar Todo
+            Limpiar
         </button>
       </section>
     </main>
